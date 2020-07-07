@@ -1,4 +1,6 @@
-result = []
+class Solution:
+    def freqAlphabets(self, s: str) -> str:
+        result = []
         for c in s:
             if c == '#':
                 c2 = result.pop()
